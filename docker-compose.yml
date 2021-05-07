@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  frontend:
+    container_name: frontend-container
+    restart: on-failure
+    build: ./frontend
+    ports: 
+      - "3000:3000"
+  backend:
+    container_name: backend-container
+    restart: on-failure
+    build: ./backend
+    ports: 
+      - "8080:8080"
+
+
