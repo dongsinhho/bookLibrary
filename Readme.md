@@ -20,3 +20,5 @@ $ git clone https://github.com/dongsinhho/bookLibrary.git
 $ cd bookLibrary
 $ docker-compose up -d
 ```
+* Api chạy trên port 8080, web chạy trên port 3000
+truy cập vào localhost với port tương ứng để check
